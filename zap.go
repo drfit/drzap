@@ -1,13 +1,13 @@
 package zap
 
 import (
-	"github.com/go-dr/dr/logus"
+	"github.com/go-dr/dr"
 
 	log "github.com/unisx/logus"
 )
 
 func init() {
-	logus.Register(drZap{})
+	dr.SetLogger(drZap{})
 }
 
 type drZap struct{}

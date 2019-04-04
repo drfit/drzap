@@ -1,4 +1,4 @@
-module github.com/go-dr/dr-zap
+module github.com/go-dr/dr.zap
 
 go 1.12
 
